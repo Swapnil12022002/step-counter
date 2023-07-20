@@ -1,5 +1,23 @@
-main {
-  text-align: center;
-  vertical-align: center;
-  line-height: 100vh
+*{
+  box-sizing: border-box
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+.app {
+  margin-top: 50px;
+  height: 50px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.step {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
 }
